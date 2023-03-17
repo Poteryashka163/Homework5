@@ -72,5 +72,46 @@ public class Main {
     }
     public static void task5() {
         System.out.println("Задача 5");
+        int monthNumber = 12;
+        switch (monthNumber) {
+            case 1:
+                System.out.println("Январь.Зимний сезон.");
+                break;
+            case 2:
+                System.out.println("Февраль.Зимний сезон.");
+                break;
+            case 3:
+                System.out.println("Март.Весенний сезон.");
+                break;
+            case 4:
+                System.out.println("Апрель.Весенний сезон.");
+                break;
+            case 5:
+                System.out.println("Май.Весенний сезон.");
+                break;
+            case 6:
+                System.out.println("Июнь.Летний сезон.");
+                break;
+            case 7:
+                System.out.println("Июль.Летний сезон.");
+                break;
+            case 8:
+                System.out.println("Август.Летний сезон.");
+                break;
+            case 9:
+                System.out.println("Сентябрь.Осенний сезон.");
+                break;
+            case 10:
+                System.out.println("Оклябрь.Осенний сезон.");
+                break;
+            case 11:
+                System.out.println("Ноябрь.Осенний сезон.");
+                break;
+            case 12:
+                System.out.println("Декабрь.Зимний сезон.");
+                break;
+            default:
+                System.out.println("Такого месяца нет!");
+        }
     }
 }
